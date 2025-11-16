@@ -4,6 +4,18 @@ A parking Point-of-Sale system built with **Spring Boot**, **PostgreSQL**, **Rea
 
 ---
 
+## Check-In Page
+
+![alt text](image-1.png)
+
+---
+
+## Check-Out Page
+
+![alt text](image-2.png)
+
+---
+
 ## Features
 
 **Core**
@@ -228,18 +240,6 @@ Running `docker compose up --build` also launches the frontend container automat
   docker build -t parking-pos-frontend .
   docker run --rm -p 4173:4173 parking-pos-frontend
   ```
-
----
-
-## Check-In Page
-
-![alt text](image-1.png)
-
----
-
-## Check-Out Page
-
-![alt text](image-2.png)
 
 ---
 
