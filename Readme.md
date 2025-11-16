@@ -111,6 +111,7 @@ Copy `.env.example` to `.env` and adjust if needed:
 ## Build & Run Without Docker
 
 ### Backend
+
 1. Copy env sample:
    ```bash
    cp .env.example .env
@@ -133,6 +134,7 @@ Copy `.env.example` to `.env` and adjust if needed:
    The REST API becomes available at `http://localhost:8080`.
 
 ### Frontend
+
 1. Install dependencies:
    ```bash
    cd frontend
@@ -192,6 +194,7 @@ Running `docker compose up --build` also launches the frontend container automat
 
 - **Database DDL**  
   Use `db/ddl.sql` (included). Apply it with:
+
   ```bash
   psql -h <host> -p <port> -U <user> -d <database> -f db/ddl.sql
   ```
@@ -228,6 +231,18 @@ Running `docker compose up --build` also launches the frontend container automat
 
 ---
 
+## Check-In Page
+
+![alt text](image-1.png)
+
+---
+
+## Check-Out Page
+
+![alt text](image-2.png)
+
+---
+
 ## Notes
 
-Built for a full-stack technical assessment to showcase TDD discipline, clean backend architecture, and a production-ready operator UI. Feel free to explore the code!
+Built for a full-stack technical assessment to showcase TDD discipline, clean backend architecture, and a production-ready operator UI.
